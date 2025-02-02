@@ -1,0 +1,220 @@
+{
+    "Name a popular Halloween Candy": [
+        [
+            "Chocolate",
+            15
+        ],
+        [
+            "Reese's Peanut Butter Cups",
+            11
+        ],
+        [
+            "Kit Kats",
+            8
+        ],
+        [
+            "Candy Corn",
+            5
+        ],
+        [
+            "Gummy Candy",
+            5
+        ]
+    ],
+    "Name a famous Halloween movie.": [
+        [
+            "The Nightmare Before Christmas",
+            14
+        ],
+        [
+            "Halloween",
+            8
+        ],
+        [
+            "Terrifier",
+            5
+        ],
+        [
+            "Hocus Pocus",
+            4
+        ],
+        [
+            "Scream",
+            4
+        ],
+        [
+            "Hubie Halloween",
+            3
+        ]
+    ],
+    "Name something you'd find in a witch's cauldron": [
+        [
+            "Frogs/Toads",
+            12
+        ],
+        [
+            "Potions/Poison",
+            10
+        ],
+        [
+            "Eyes/Eyeballs",
+            8
+        ],
+        [
+            "Goop!",
+            8
+        ],
+        [
+            "Body Parts",
+            7
+        ],
+        [
+            "Animal Parts",
+            5
+        ]
+    ],
+    "Name a scary animal that lurks in the night.": [
+        [
+            "Werewolf/Wolves",
+            14
+        ],
+        [
+            "Bats",
+            7
+        ],
+        [
+            "Cat",
+            6
+        ],
+        [
+            "Skinwalker/Wendigo",
+            4
+        ]
+    ],
+    "What kind of place do ghosts like to haunt?": [
+        [
+            "Houses/Manors",
+            35
+        ],
+        [
+            "Abandoned Buildings",
+            18
+        ],
+        [
+            "Graveyards/Cemetaries",
+            4
+        ]
+    ],
+    "What's something people often use to decorate with for Halloween?" : [
+        [
+            "Pumpkins",
+            13
+        ],
+        [
+            "Spiderwebs",
+            11
+        ],
+        [
+            "Skeletons",
+            8
+        ],
+        [
+            "Lights",
+            5
+        ],
+        [
+            "Ghosts",
+            5
+        ],
+        [
+            "Spiders",
+            4
+        ]
+    ],
+    "Name a Halloween costume that would be pretty common this year." :[
+        [
+            "Skibidi Toilet",
+            12
+        ],
+        [
+            "Superhero",
+            8
+        ],
+        [
+            "Hawk Tuah",
+            5
+        ],        
+        [
+            "Clowns",
+            5
+        ]
+    ],
+    "Name something people do to a house on Mischief night." : [
+        [
+            "Egging",
+            28
+        ],
+        [
+            "TP",
+            26
+        ],
+        [
+            "Vandalism",
+            9
+        ]
+    ],
+    "Name something you might get other than candy on Halloween night." : [
+        [
+            "Toothbrush",
+            15
+        ],
+        [
+            "Apples",
+            8
+        ],
+        [
+            "Tricks",
+            5
+        ],
+        [
+            "Drink/Soda",
+            4
+        ]
+    ],
+        "Name a scary creature that lives in a graveyard." : [
+            [
+                "Zombies",
+                14
+            ],
+            [
+                "Skeleton",
+                10
+            ],
+            [
+                "Ghosts",
+                6
+            ],
+            [
+                "The Grim Reaper",
+                4
+            ]
+        ],
+    "Name a classic Halloween/Horror song." : [
+        [
+            "Monster Mash",
+            9
+        ],
+        [
+            "Thriller",
+            7
+        ],
+        [
+            "Spooky Scary Skeletons",
+            7
+        ],
+        [
+            "This is Halloween",
+            4
+        ]
+    ]
+}

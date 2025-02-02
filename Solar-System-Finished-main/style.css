@@ -1,0 +1,100 @@
+body.big-page {
+	overflow: hidden;
+	background: url('images/bg.jpg');
+	background-size: cover;
+}
+
+#mainContent {
+	position: relative;
+	display: block;
+	width: 800px;
+	height: 800px;
+	border: none;
+	overflow: visible;
+	margin: 0 auto;
+}
+
+.planets {
+	position: absolute;
+	top: 430px;
+	left: 365px;
+}
+
+#sun {
+	position: absolute;
+	top: 390px;
+	left: 330px;
+	width: 125px;
+}
+
+#mercury {
+    animation: mOrbit 1s linear infinite normal;
+}
+
+@keyframes mOrbit {
+	from{transform: rotate(0deg) translateX(90px) rotate(0deg);}
+	to{transform: rotate(360deg) translateX(90px) rotate(-360deg);}
+}
+
+#venus {
+    animation: vOrbit 2.16s linear infinite normal;
+}
+
+@keyframes vOrbit {
+	from{transform: rotate(0deg) translateX(150px) rotate(0deg);}
+	to{transform: rotate(360deg) translateX(150px) rotate(-360deg);}
+}
+
+#earth {
+    animation: eOrbit 3.38s linear infinite normal;
+}
+
+@keyframes eOrbit {
+    from {transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to {transform: rotate(360deg) translateX(250px) rotate(-360deg); }
+}
+
+#mars {
+    animation: maOrbit 6.16s linear infinite normal;
+}
+
+@keyframes maOrbit {
+    from {transform: rotate(0deg) translateX(350px) rotate(0deg); }
+    to {transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+}
+
+#jupiter {
+    animation: jOrbit 18.81s linear infinite normal;
+}
+
+@keyframes jOrbit {
+    from {transform: rotate(0deg) translateX(450px) rotate(0deg); }
+    to {transform: rotate(360deg) translateX(450px) rotate(-360deg); }
+}
+
+#saturn {
+    animation: sOrbit 46.78s linear infinite normal;
+}
+
+@keyframes sOrbit {
+    from {transform: rotate(0deg) translateX(550px) rotate(0deg); }
+    to {transform: rotate(360deg) translateX(550px) rotate(-360deg); }
+}
+
+#uranus {
+    animation: uOrbit 66.11s linear infinite normal;
+}
+
+@keyframes uOrbit {
+    from {transform: rotate(0deg) translateX(650px) rotate(0deg); }
+    to {transform: rotate(360deg) translateX(650px) rotate(-360deg); }
+}
+
+#neptune {
+    animation: nOrbit 142.37s linear infinite normal;
+}
+
+@keyframes nOrbit {
+    from {transform: rotate(0deg) translateX(750px) rotate(0deg); }
+    to {transform: rotate(360deg) translateX(750px) rotate(-360deg); }
+}

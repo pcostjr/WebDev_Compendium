@@ -1,0 +1,144 @@
+/* Garrett O'Brien 1/22/2024 */
+
+/* note that there is nothing weird or different about this solar system in any way */
+
+/* Sun Orbit Code */
+@keyframes sunOrbit {
+    from {
+        transform: rotate(-360deg);
+    }
+}
+/* Murcury Orbit Code */
+@keyframes mercuryOrbit {
+    0% {transform:rotate(0deg) translateY(100px) rotate(0deg)}
+    100%{transform: rotate(360deg) translateY(100px) rotate(-360deg);}
+}
+/* Venus Orbit Code */
+@keyframes venusOrbit {
+    0% {transform:rotate(0deg) translateY(200px) rotate(0deg)}
+    100%{transform: rotate(360deg) translateY(200px) rotate(-360deg);}
+}
+/* Earth Orbit Code */
+@keyframes earthOrbit {
+    0% {transform:rotate(0deg) translateY(300px) rotate(0deg)}
+    100%{transform: rotate(360deg) translateY(300px) rotate(-360deg);}
+}
+/* Mars Orbit Code */
+@keyframes marsOrbit {
+    0% {transform:rotate(0deg) translateY(400px) rotate(0deg)}
+    100%{transform: rotate(360deg) translateY(400px) rotate(-360deg);}
+}
+/* Jupiter Orbit Code */
+@keyframes jupiterOrbit {
+    0% {transform:rotate(0deg) translateY(500px) rotate(0deg)}
+    100%{transform: rotate(360deg) translateY(500px) rotate(-360deg);}
+}
+/* Saturn Orbit Code */
+@keyframes saturnOrbit {
+    0% {transform:rotate(0deg) translateY(600px) rotate(0deg)}
+    100%{transform: rotate(360deg) translateY(600px) rotate(-360deg);}
+}
+/* Uranus Orbit Code */
+@keyframes uranusOrbit {
+    0% {transform:rotate(0deg) translateY(700px) rotate(0deg)}
+    100%{transform: rotate(360deg) translateY(700px) rotate(-360deg);}
+}
+/* Neptune Orbit Code */
+@keyframes neptuneOrbit {
+    0% {transform:rotate(0deg) translateY(800px) rotate(0deg)}
+    100%{transform: rotate(360deg) translateY(800px) rotate(-360deg);}
+}
+/* THIS CODE DOESNT DO ANYTHING */
+@keyframes notacow {
+
+    0%{ transform: translateY(-40px)}
+    50%{transform: translateY(10000px)}
+    100%{ transform: translateY(-40px)}
+}
+
+
+
+body.big-page {
+    overflow: hidden;
+    background: url('images/bg.jpg');
+    background-size: cover;
+}
+
+#mainContent {
+    position: relative;
+    display: block;
+    width: 800px;
+    border: none;
+    margin: 0 auto;
+    height: 800px;
+    overflow: visible;
+}
+
+/* code that applies to all planets */
+.planets {
+    position: absolute;
+    top: 430px;
+    left: 365px;
+}
+/* sun styling */
+#sun {
+    position: absolute;
+    left: 330px;
+    top: 390px;
+    width: 160px;
+	animation: sunOrbit 5s linear infinite normal;
+}
+/* mercury styling */
+#mercury {
+
+animation: mercuryOrbit 2s linear infinite normal;
+height: 60px;
+}
+/* venus styling */
+#venus {
+
+    animation: venusOrbit 2.5s linear infinite normal;
+    height: 60px;
+}
+/* earth styling */
+#earth {
+
+    animation: earthOrbit 3s linear infinite normal;
+    height: 60px;
+}
+/* mars styling */
+#mars {
+
+    animation: marsOrbit 3.5s linear infinite normal;
+    height: 50px;
+}
+/* jupiter styling */
+#jupiter {
+
+    animation: jupiterOrbit 4s linear infinite normal;
+    height: 70px;
+}
+/* saturn styling */
+#saturn {
+
+    animation: saturnOrbit 4.5s linear infinite normal;
+    height: 50px;
+}
+/* uranus styling */
+#uranus {
+
+    animation: uranusOrbit 5s linear infinite normal;
+    height: 45px;
+}
+/* neptune styling */
+#neptune {
+
+animation: neptuneOrbit 5.5s linear infinite normal;
+height: 50px;
+}
+/* THIS CODE DOESNT DO ANYTHING */
+.notcow {
+    animation: notacow 15s linear infinite normal;
+    height: 50px;
+
+}

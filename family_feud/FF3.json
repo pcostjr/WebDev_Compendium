@@ -1,0 +1,12 @@
+﻿{
+   "What is the most popular Christmas song?":[["All I Want For Christmas Is You", 58],["Jingle Bells / Jingle Bell Rock", 20],["Last Christmas", 7],["Feliz Navidad", 3],["Rockin' Around The Christmas Tree", 3]],
+   "Name a Holiday Movie.":[["Home Alone", 28],["Elf" , 24],["The Nightmare Before Christmas", 9],["The Grinch", 8], ["Die Hard", 7], ["The Polar Express", 6]],
+   "Name something you'd hate to run out of during a winter storm.":[["Electricity/Power", 20],["Heat",18],["Food/Water",17],["Toilet Paper", 9],["Blankets", 3]],
+   "Name a popular Christmas gift for children.":[["Toys", 20],["Video Games", 16], ["Doll", 7], ["Coal", 6], ["Legos", 6],["iPad", 5],["Money", 4]],
+   "Name something people cook over a fire during winter.": [["Marshmallows", 39],["Chestnuts", 16],["S'mores", 13],["Turkey", 5], ["Chicken", 4], ["Hot Dogs",3]],
+   "Name an accessory people wear in winter.":[["Scarf", 29],["Hat/Beanie", 18],["Coat/Jacket", 12], ["Gloves/Mittens",8],["Earmuffs",6]],
+   "What is the worst gift you've ever received?":[["Socks", 15],["Coal",11],["Nothing", 10],["Clothes",4]],
+   "Name a famous character from a Christmas Movie.":[["The Grinch", 26],["Santa Claus", 18],["Buddy The Elf", 13],["Kevin McAllister", 11],["Rudolph", 7]]
+   
+ }
+
