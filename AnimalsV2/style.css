@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+* {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background: #FDF800;
+    background: linear-gradient(45deg, #000000 0%, #FDF800 35%, #CC5500 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    margin: 25px auto;
+}
+
+table, th, td {
+    margin: auto;
+    border: 2px dotted #000;
+    border-radius: 5px;
+
+
+}
+
+th {
+    padding: 0px 50px;
+    width: 100px;
+    color: darkblue;
+}
+
+.first_row {
+    background-color: red;
+    color: coral;
+}
+.second_row {
+    background-color: rebeccapurple;
+    color: lightseagreen;
+}
+
+.third_row {
+    background-color: powderblue;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: mediumblue;
+}
+
+.cringe_copypasta {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+.cringe_copypasta h1,h2,h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+}
