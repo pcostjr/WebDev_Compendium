@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.heading {
+    position: relative;
+    text-align: center;
+    color: #2c3e50;
+    padding: 0 60px;
+}
+
+.heading::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    border-radius: 50%;
+}
+
+.heading::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+}
+
+/* Example 2: Info box with corner circles */
+.info-box {
+    position: relative;
+    background-color: white;
+    padding: 30px;
+    margin: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.1s ease-out;
+}
+
+.info-box::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    background-color: #9b59b6;
+    border-radius: 50%;
+}
+
+.info-box::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: #f39c12;
+    border-radius: 50%;
+}
+
+/* Slider controls */
+.slider-container {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.slider-container label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#box_slider {
+    width: 100%;
+    max-width: 400px;
+    height: 8px;
+    border-radius: 5px;
+    background: #ddd;
+    outline: none;
+    cursor: pointer;
+}
+
+#box_slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #3498db;
+    cursor: pointer;
+}
+
+#box_slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #3498db;
+    cursor: pointer;
+    border: none;
+}
+
+.slider-value {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #555;
+}
+
+#pos_label {
+    font-weight: bold;
+    color: #3498db;
+}

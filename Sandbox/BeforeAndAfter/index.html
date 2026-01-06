@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeforeAndAfter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="heading">::before and ::after</h1>
+
+    <ul class="info-box" id="box_move">
+        <li>This box has decorative circles added using ::before and ::after pseudo-elements.</li>
+        <li>We don't need any other elements in order to draw these decorators</li>
+        <li>These parts also follow the parent object. Try and move the slider below, the circles stay 'attached' to the box.</li>
+    </ul>
+
+
+
+    <div class="slider-container">
+        <label for="box_slider">Move the box left and right:</label>
+        <input type="range" id="box_slider" min="-150" max="150" value="0" step="1">
+        <p class="slider-value">Position: <span id="pos_label">0</span>px</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
