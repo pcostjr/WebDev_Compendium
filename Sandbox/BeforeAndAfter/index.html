@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeforeAndAfter</title>
+    <!-- remember, we need to include the style.css link to use css -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
+    <!-- title heading of webpage -->
     <h1 class="heading">::before and ::after</h1>
 
+    <!-- information box that has a before and after attached to it -->
     <ul class="info-box" id="box_move">
         <li>This box has decorative circles added using ::before and ::after pseudo-elements.</li>
         <li>We don't need any other elements in order to draw these decorators</li>
         <li>These parts also follow the parent object. Try and move the slider below, the circles stay 'attached' to the box.</li>
     </ul>
 
-
-
+    <!-- this contains the slider that moves the box around -->
     <div class="slider-container">
         <label for="box_slider">Move the box left and right:</label>
         <input type="range" id="box_slider" min="-150" max="150" value="0" step="1">

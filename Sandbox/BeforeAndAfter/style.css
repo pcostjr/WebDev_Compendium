@@ -1,14 +1,17 @@
+/* general styling for the web page and all child elements */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     padding: 40px;
 }
 
+/* container for the elements */
 .container {
     max-width: 600px;
     margin: 0 auto;
 }
 
+/* header elements for top of page */
 .heading {
     position: relative;
     text-align: center;
@@ -16,6 +19,7 @@ body {
     padding: 0 60px;
 }
 
+/* left circle */
 .heading::before {
     content: "";
     position: absolute;
@@ -28,6 +32,7 @@ body {
     border-radius: 50%;
 }
 
+/* right circle */
 .heading::after {
     content: "";
     position: absolute;
@@ -39,8 +44,10 @@ body {
     background-color: #e74c3c;
     border-radius: 50%;
 }
+/* END OF header elements for top of page */
 
-/* Example 2: Info box with corner circles */
+
+/* Info box with corner circles */
 .info-box {
     position: relative;
     background-color: white;
@@ -48,9 +55,12 @@ body {
     margin: 40px 0;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    /* transition is a fancy css tag that will let us smoothly move left and right when the slider changes */
+    /* instead of jumping around */
     transition: transform 0.1s ease-out;
 }
 
+/* top left circle */
 .info-box::before {
     content: "";
     position: absolute;
@@ -62,6 +72,7 @@ body {
     border-radius: 50%;
 }
 
+/* bottom right circle */
 .info-box::after {
     content: "";
     position: absolute;
@@ -72,8 +83,9 @@ body {
     background-color: #f39c12;
     border-radius: 50%;
 }
+/* END OF infor box */
 
-/* Slider controls */
+/* slider control box */
 .slider-container {
     text-align: center;
     margin-top: 40px;
